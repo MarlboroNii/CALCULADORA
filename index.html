@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styled.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form id="frm">
+    <div>
+        <h1>Calculadora de liberdade financeira</h1>
+        <br>
+    </div>
+    <div>
+        <label>Rendimento Mensal Desejado</label>
+        <input type="text" name="Desejado" id="Desejado" placeholder="R$">
+        <br><br>
+    </div>
+    <div>
+        <label>Capital inicial</label>
+        <input type="text" name="capinicial" id="capinicial">
+        <br><br>
+    </div>
+    <div>
+        <label>Investimeto Mensal</label>
+        <input type="text" name="Mensal" id="Mensal">
+        <br><br>
+    </div>
+    <div>
+        <label>Rentabilidade Mensal atual (%)</label>
+        <input type="text" name="atual" id="atual" placeholder="0.00">
+        <br><br>
+    </div>
+    <div>
+        <label>Capital necessário</label>
+        <input type="text" name="resultado" id="resultado" placeholder=";)">
+        <br><br>
+    </div>
+    <div>
+        <label>Tempo necessário</label>
+        <input type="text" name="Tempo" id="Tempo" placeholder=";)">
+        <br><br>
+    </div>
+    <div>
+        <input type="button" value="Limpar" onClick="limpar()"/>
+        <input type="button" value="Calcular" onClick="calculo()">
+        <input type="button" value="Tempo" onClick="tempo()">
+    </div>
+</form>
+
+  <script>
+
+  function limpar(){
+
+        var f = document.getElementById("frm");
+        var Desejado = f.Desejado;
+        var atual = f.atual;
+        var capital = f.capinicial;
+        var Tempo = f.Tempo;
+        var resultado = f.resultado;
+        var Mensal= f.Mensal;
+
+        capital.value = "";
+        Desejado.value = "";
+        atual.value = "";
+        Tempo.value = "";
+        resultado.value = "";
+        Mensal.value = "";
+    }
+
+ function calculo(){
+
+   var operacao = '/';
+    
+   var Desejado=(document.getElementById("Desejado").value);
+   var atual=parseFloat(document.getElementById("atual").value/100);
+   
+   var calculo = eval(Desejado+operacao+atual);
+
+   var formato = calculo.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+
+   document.getElementById("resultado").value = formato;
+
+   return calculo;
+   }
+    
+    function tempo(){
+     
+
+ }
+  </script>  
+
+</body>
+</html>
