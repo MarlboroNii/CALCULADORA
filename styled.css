@@ -1,8 +1,18 @@
-*{
-    background-color: #363636;
-    color: white;
+body{
+    background-color: #070707;
+
+}
+.box{
+    background-color: #2274a5;
+    width: 75vh;
+    height: 75vh;
+    border-radius: 15%;
+    margin-top: 13vh;
+    margin-left: 65vh;
 }
 #frm{
-    margin-top: 22vh;
-    margin-left: 70vh;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
 }
