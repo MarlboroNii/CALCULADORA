@@ -13,7 +13,7 @@
 <body>
 <div class="box">
     <form id="frm">
-    <div>
+    <div class="titulo">
         <h1>Liberdade financeira</h1>
         <br>
     </div>
@@ -48,9 +48,9 @@
         <br><br>
     </div>
     <div>
-        <input type="button" value="Limpar" onClick="limpar()"/>
-        <input type="button" value="Calcular" onClick="calculo()">
-        <input type="button" value="Tempo" onClick="tempo()">
+        <input type="button" id="reset" value="Limpar" onClick="limpar()"/>
+        <input type="button" id="go" value="Calcular" onClick="calculo()">
+        <input type="button" id="gotime" value="Tempo" onClick="tempo()">
     </div>
 </div>
 </form>
@@ -86,9 +86,9 @@
 
    var formato = calculo.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
-   document.getElementById("resultado").value = formato;
+   document.getElementById("resultado").value = formato
 
-   return calculo;
+    return calculo;
    }
     
     function tempo(){

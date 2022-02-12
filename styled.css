@@ -12,7 +12,34 @@ body{
 }
 #frm{
     position: absolute;
-    margin-left: 120px;
+    margin-left: 105px;
     margin-top: 60px;
     font-family: 'Open Sans', sans-serif;
+}
+.titulo{
+    font-size: 19px;
+}
+#reset{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+#go{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    text-shadow:none;
+}
+#go:hover{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    background: #F9DC5C;
+    text-shadow:none;
+}
+#gotime{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
 }
