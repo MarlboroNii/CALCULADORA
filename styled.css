@@ -1,12 +1,11 @@
 body{
     background-color: #ffffff;
-
 }
 .box{
     background-color: #2274a5;
-    width: 75vh;
-    height: 75vh;
-    border-radius: 15%;
+    width: 74vh;
+    height: 100vh;
+    border-radius: 55px;
     margin-top: 13vh;
     margin-left: 65vh;
 }
@@ -25,6 +24,13 @@ body{
     border-radius: 15px;
     margin-top: 15px;
 }
+#reset:hover{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background: #ED254E;
+}
 #go{
     height: 30px;
     width: 100px;
@@ -42,4 +48,18 @@ body{
     height: 30px;
     width: 100px;
     border-radius: 15px;
+}
+#gotime:hover{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    background: #C2EABD;
+}
+.inputs{
+    width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+	margin-top: 6px;
+	border-radius: 50px;
 }
