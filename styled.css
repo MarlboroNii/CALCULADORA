@@ -5,7 +5,7 @@ body{
 .navbar{
     width: 100vw;
     height: 70px;
-    background-color: #2c4cff;
+    background-color:#4CB5AEff;
     font-family: 'Open Sans', sans-serif;
 }
 #marca{
@@ -59,7 +59,7 @@ body{
     width: 100px;
     border-radius: 15px;
     margin-top: 15px;
-    background: #2c4cff;
+    background: #ff2c2c;
 }
 #go{
     height: 30px;
@@ -100,6 +100,10 @@ body{
 	border-radius: 50px;
 }
 @media only screen and (min-width: 400px) and (max-width: 600px){
+    body{
+        height: 120vh;
+        margin: 0;
+    }
     #login{
         position: absolute;
         margin-left: 85vw;
@@ -107,16 +111,16 @@ body{
         cursor: default;
     }
     .box{
-        background-color: #2c4cff;
-        width: 390px;
+        background-color: #81D6E3;
+        width: 400px;
         height: 850px;
         border-radius: 55px;
-        margin-top: 15px;
-        margin-left: 5px;
+        margin-top: 50px;
+        margin-left: 7px;
     }
     #frm{
         position: absolute;
-        margin-left: 50px;
+        margin-left: 11vw;
         margin-top: 60px;
         font-family: 'Open Sans', sans-serif;
     }
@@ -129,46 +133,23 @@ body{
         width: 100px;
         border-radius: 15px;
         margin-top: 15px;
-        margin-left: -20px;
-        border: none;
+        margin-left: -15px;
         font-weight: 600;
-    }
-    #reset:hover{
-        height: 30px;
-        width: 100px;
-        border-radius: 15px;
-        margin-top: 15px;
-        background: #fd1947;
     }
     #go{
         height: 30px;
         width: 100px;
         border-radius: 15px;
-        text-shadow:none;
         margin-left: 15px;
         border: none;
         font-weight: 600;
-    }
-    #go:hover{
-        height: 30px;
-        width: 100px;
-        border-radius: 15px;
-        background: #ffd519;
-        text-shadow:none;
     }
     #gotime{
         height: 30px;
         width: 100px;
         border-radius: 15px;
         margin-left: 15px;
-        border: none;
         font-weight: 600;
-    }
-    #gotime:hover{
-        height: 30px;
-        width: 100px;
-        border-radius: 15px;
-        background: #80ff70;
     }
     .inputs{
         width: 80%;
