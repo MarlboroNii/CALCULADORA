@@ -29,16 +29,15 @@ body{
 }
 .box{   
     background-color: #838B8B;
-    width: 550px;
+    width: 40vw;
     height: 800px;
     border-radius: 55px;
     margin-top: 15vh;
-    margin-left: 65vh;
-    margin-left: 25vw;
+    margin-left: 30vw;
 }
 #frm{
     position: absolute;
-    margin-left: 105px;
+    margin-left: 9vw;
     margin-top: 60px;
     font-family: 'Open Sans', sans-serif;
 }
