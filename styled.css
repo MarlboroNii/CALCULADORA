@@ -5,16 +5,16 @@ body{
 .navbar{
     width: 100vw;
     height: 70px;
-    background-color:#81D6E3;
+    background-color:#9c9c9c;
     font-family: 'Open Sans', sans-serif;
 }
 #marca{
     position: absolute;
     margin-left: 5vw;
-    margin-top: 20px;
+    margin-top: 15px;
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 550;
     cursor: default;
 }
@@ -28,12 +28,12 @@ body{
     cursor: default;
 }
 .box{   
-    background-color: #81D6E3;
+    background-color: #838B8B;
     width: 550px;
     height: 800px;
     border-radius: 55px;
     margin-top: 15vh;
-    margin-left: 33vw;
+    margin-left: 65vh;
 }
 #frm{
     position: absolute;
